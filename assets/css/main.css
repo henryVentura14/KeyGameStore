@@ -740,6 +740,7 @@ body {
 }
 .intro--options p {
   margin-bottom: 0;
+  text-align: justify;
 }
 @media (max-width: 900px) {
   .intro--banner {
@@ -800,6 +801,8 @@ body {
     color: #282828;
     -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
+  }
+  .intro--options>a:active .intro--options>a:hover{
     color: white;
   }
 }

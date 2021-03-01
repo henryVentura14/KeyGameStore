@@ -645,11 +645,7 @@ body {
   position: relative;
   height: 475px;
 }
-.banner-image {
-  position: relative;
-  width: 500px;
-  height: 481px;
-}
+
 .intro--banner::before {
   content: "";
   position: absolute;
@@ -789,11 +785,11 @@ body {
   }
   .intro--banner h1 {
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .intro--banner img {
-    display: block;
-    top: -10px;
+    position: absolute;
+    top: 60px;
     max-width: 180px;
     max-height: 161px;
   }
@@ -1204,6 +1200,10 @@ body {
 }
 
 @media (max-width: 600px) {
+  .work h2{
+    font-size: 16px;
+    margin-top: 0px;
+}
   .about--banner {
     height: auto;
   }
